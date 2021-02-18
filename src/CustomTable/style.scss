@@ -1,0 +1,36 @@
+.table-container{
+  .table{
+    margin: 0 auto;
+    width: 70%;  
+  }
+  table, th, td{
+    border: 1px solid #9e9e9e33;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 14px;
+  }
+  input[type="checkbox"], button{
+    cursor: pointer;
+  }
+  .search-input{
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .pagination-container{
+    display: flex;
+    justify-content: center;
+
+    .page-button{
+      padding: 3px;
+      background: #80808040;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      margin: 3px;
+      cursor: pointer;
+    }
+  }
+}
